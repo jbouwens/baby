@@ -1,4 +1,5 @@
-const AgeCard = ({ age }) => {
+const AgeCard = ({ age, babySizes }) => {
+  console.log("Card received", babySizes);
   return (
     <div className="ui card">
       <div className="image">
@@ -7,9 +8,11 @@ const AgeCard = ({ age }) => {
       <div className="content">
         <a className="header">Size at {age} Weeks</a>
         <div className="meta">
-          <span className="date">Filler Text</span>
+          <span className="date">filler text</span>
         </div>
-        <div className="description">Description of the Size!</div>
+        <div className="description">
+          Your baby is the size of a {babySizes[0].description}
+        </div>
       </div>
     </div>
   );

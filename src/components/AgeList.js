@@ -1,10 +1,10 @@
 import AgeCard from "./AgeCard";
 
-const AgeList = ({ ages }) => {
+const AgeList = ({ ages, allBabySizes }) => {
   return (
     <div>
       {ages.map((x) => (
-        <AgeCard age={x.age}></AgeCard>
+        <AgeCard age={x.age} babySizes={allBabySizes[x.age]}></AgeCard>
       ))}
     </div>
   );

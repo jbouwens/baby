@@ -3,8 +3,10 @@ import "./App.css";
 import AgeForm from "./components/AgeForm";
 import { useState } from "react";
 import AgeList from "./components/AgeList";
+import useBabySizes from "./components/useBabySizes";
 
 function App() {
+  const allBabySizes = useBabySizes();
   // here we create an array state to store the contact form data
   const [ages, updateAges] = useState([]);
 
@@ -29,7 +31,7 @@ function App() {
         </a>
       </header>
       <AgeForm addAge={addAge}></AgeForm>
-      <AgeList ages={ages}></AgeList>
+      <AgeList ages={ages} allBabySizes={allBabySizes}></AgeList>
     </div>
   );
 }
