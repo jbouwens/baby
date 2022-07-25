@@ -1,5 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import FormGroup from "react-bootstrap/esm/FormGroup";
 
 const AgeForm = ({ addAge }) => {
   const [babyInfo, setBabyInfo] = useState({
@@ -17,9 +20,9 @@ const AgeForm = ({ addAge }) => {
   };
 
   return (
-    <div className="form-container">
-      <form onSubmit={handleSubmit}>
-        <input
+    <Form onSubmit={handleSubmit}>
+      <FormGroup>
+        <Form.Control
           type="number"
           name="age"
           min="1"
@@ -27,12 +30,10 @@ const AgeForm = ({ addAge }) => {
           placeholder="Age in Weeks"
           value={babyInfo.age}
           onChange={handleChange}
-        ></input>
-        <div>
-          <button>Submit Contact</button>
-        </div>
-      </form>
-    </div>
+        />
+        <Button onClick={handleSubmit}>Go!</Button>
+      </FormGroup>
+    </Form>
   );
 };
 

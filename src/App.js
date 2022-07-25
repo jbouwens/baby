@@ -3,6 +3,7 @@ import AgeForm from "./components/AgeForm";
 import { useState } from "react";
 import AgeList from "./components/AgeList";
 import useBabySizes from "./components/useBabySizes";
+import { Button, Container } from "react-bootstrap";
 
 function App() {
   const allBabySizes = useBabySizes();
@@ -14,11 +15,10 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header></header>
+    <Container className="p-3">
       <AgeForm addAge={addAge}></AgeForm>
       <AgeList ages={ages} allBabySizes={allBabySizes}></AgeList>
-    </div>
+    </Container>
   );
 }
 
