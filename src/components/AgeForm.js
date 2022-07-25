@@ -22,6 +22,8 @@ const AgeForm = ({ addAge }) => {
         <input
           type="number"
           name="age"
+          min="1"
+          max="40"
           placeholder="Age in Weeks"
           value={babyInfo.age}
           onChange={handleChange}
