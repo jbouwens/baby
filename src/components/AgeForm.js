@@ -10,10 +10,13 @@ const AgeForm = ({ addAge }) => {
   });
 
   const handleChange = (event) => {
-    setBabyInfo({ ...babyInfo, [event.target.name]: event.target.value });
+    const age = event.target.value;
+    setBabyInfo({ ...babyInfo, [event.target.name]: age });
   };
 
   const handleSubmit = (event) => {
+    if (babyInfo.age < 1 || babyInfo.age > 40) return;
+
     event.preventDefault();
     addAge(babyInfo);
     setBabyInfo({ age: "" });
@@ -25,9 +28,9 @@ const AgeForm = ({ addAge }) => {
         <Form.Control
           type="number"
           name="age"
-          min="1"
+          minLength={1}
           max="40"
-          placeholder="Age in Weeks"
+          placeholder="Age in Weeks (1 to 40)"
           value={babyInfo.age}
           onChange={handleChange}
         />
