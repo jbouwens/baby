@@ -2,6 +2,7 @@
   "1": [
     {
       "description": "What baby?",
+      "query": "Question_mark",
       "source": "Parents.com",
       "measurement": "",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -10,6 +11,7 @@
   "2": [
     {
       "description": "What baby?",
+      "query": "Question_mark",
       "source": "Parents.com",
       "measurement": "",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -18,6 +20,7 @@
   "3": [
     {
       "description": "What baby?",
+      "query": "Question_mark",
       "source": "Parents.com",
       "measurement": "",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -26,6 +29,7 @@
   "4": [
     {
       "description": "32 cells (0.01 inches)",
+      "query": "Cellular_organizational_structure",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -34,6 +38,7 @@
   "5": [
     {
       "description": "Peppercorn",
+      "query": "Sichuan_pepper",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -42,6 +47,7 @@
   "6": [
     {
       "description": "Pomegranate seed",
+      "query": "Pomegranate",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -50,6 +56,7 @@
   "7": [
     {
       "description": "Small blueberry",
+      "query": "Blueberry",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -113,6 +120,7 @@
   "15": [
     {
       "description": "Apple",
+      "query": "Fuji_(apple)",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -185,6 +193,7 @@
   "24": [
     {
       "description": "Ear of Corn",
+      "query": "Sweet_corn",
       "source": "Parents.com",
       "measurement": "length",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -193,6 +202,7 @@
   "25": [
     {
       "description": "Acorn Squash",
+      "query": "Acorn_squash",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -217,6 +227,7 @@
   "28": [
     {
       "description": "Kabocha Squash",
+      "query": "Kabocha",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -233,6 +244,7 @@
   "30": [
     {
       "description": "Large Cabbage",
+      "query": "Cabbage",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -241,6 +253,7 @@
   "31": [
     {
       "description": "Bunch of Leeks",
+      "query": "Leek",
       "source": "Parents.com",
       "measurement": "length",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -273,6 +286,7 @@
   "35": [
     {
       "description": "Honeydew Melon",
+      "query": "Honeydew_(melon)",
       "source": "Parents.com",
       "measurement": "size",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -288,7 +302,8 @@
   ],
   "37": [
     {
-      "description": "Swish Chard",
+      "description": "Swiss Chard",
+      "query": "Chard",
       "source": "Parents.com",
       "measurement": "length",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
@@ -305,6 +320,7 @@
   "39": [
     {
       "description": "Small Pumpkin",
+      "query": "Pumpkin",
       "source": "Parents.com",
       "measurement": "weight",
       "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"

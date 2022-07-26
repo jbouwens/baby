@@ -4,7 +4,11 @@ const AgeList = ({ ages, allBabySizes }) => {
   return (
     <div>
       {ages.map((x) => (
-        <AgeCard age={x.age} babySizes={allBabySizes[x.age]}></AgeCard>
+        <AgeCard
+          age={x.age}
+          i={Math.floor(Math.random() * allBabySizes[x.age].length)}
+          babySizes={allBabySizes[x.age]}
+        ></AgeCard>
       ))}
     </div>
   );
