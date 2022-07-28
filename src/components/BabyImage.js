@@ -45,13 +45,11 @@ const BabyImage = ({ query }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const api = `https://en.wikipedia.org/w/api.php?action=query&titles=${query}&prop=pageimages&format=json&pithumbsize=512`;
+  const api = `https://en.wikipedia.org/w/api.php?action=query&titles=${query}&prop=pageimages&format=json&pithumbsize=512&origin=*`;
 
   useEffect(() => {
     console.log("api call", api);
-    fetch(api, {
-      mode: "cors",
-    })
+    fetch(api)
       .then((response) => {
         if (response.ok) {
           return response.json();
