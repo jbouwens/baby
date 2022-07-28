@@ -19,14 +19,10 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: 'build'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
+    azureSubscription: 'Pay-As-You-Go(1)(80998369-c8f1-4952-8e08-afdabc987a6c)'
     appType: 'webApp'
     WebAppName: 'baby'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/drop'
