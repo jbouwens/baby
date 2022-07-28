@@ -49,7 +49,9 @@ const BabyImage = ({ query }) => {
 
   useEffect(() => {
     console.log("api call", api);
-    fetch(api)
+    fetch(api, {
+      mode: "cors",
+    })
       .then((response) => {
         if (response.ok) {
           return response.json();
