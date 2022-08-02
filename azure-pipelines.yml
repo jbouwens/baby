@@ -19,9 +19,10 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+  workingDirectory: 'web'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'build'
+    PathtoPublish: 'web/build'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 - task: AzureRmWebAppDeployment@4
@@ -33,4 +34,5 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'Default-Storage-CentralUS'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/build'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/web/build'
+    
