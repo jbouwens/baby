@@ -5,7 +5,7 @@
       "query": "Question_mark",
       "source": "Parents.com",
       "measurement": "",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "2": [
@@ -14,7 +14,7 @@
       "query": "Question_mark",
       "source": "Parents.com",
       "measurement": "",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "3": [
@@ -23,7 +23,7 @@
       "query": "Question_mark",
       "source": "Parents.com",
       "measurement": "",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "4": [
@@ -32,7 +32,14 @@
       "query": "Microscopy",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+    },
+    {
+      "description": "Poppy Seeds",
+      "query": "Poppy_seed",
+      "source": "Flo",
+      "measurement": "size",
+      "link": "http://web.archive.org/web/20220726145514/https://flo.health/pregnancy/week-by-week/4-weeks-pregnant"
     }
   ],
   "5": [
@@ -41,16 +48,28 @@
       "query": "Sichuan_pepper",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+    },
+    {
+      "description": "Sesame Seed",
+      "source": "Flo",
+      "measurement": "size",
+      "link": "http://web.archive.org/web/20210918042404/https://flo.health/pregnancy/week-by-week/5-weeks-pregnant"
     }
   ],
   "6": [
     {
-      "description": "Pomegranate seed",
-      "query": "Pomegranate",
+      "description": "Lentil",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+    },
+    {
+      "description": "Sesame Seed",
+      "query": "Sesame_seed",
+      "source": "Flo",
+      "measurement": "size",
+      "link": "http://web.archive.org/web/20210903222047/https://flo.health/pregnancy/week-by-week/6-weeks-pregnant"
     }
   ],
   "7": [
@@ -59,14 +78,21 @@
       "query": "Blueberry",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "8": [
     {
       "description": "Raspberry",
       "source": "Parents.com",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+    },
+    {
+      "description": "Bean",
+      "query": "Kidney_bean",
+      "source": "Flo",
+      "measurement": "size",
+      "link": "http://web.archive.org/web/20210731070219/https://flo.health/pregnancy/week-by-week/8-weeks-pregnant"
     }
   ],
   "9": [
@@ -74,7 +100,7 @@
       "description": "Cherry",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "10": [
@@ -82,7 +108,7 @@
       "description": "Kumquat",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "11": [
@@ -90,7 +116,7 @@
       "description": "Fig",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "12": [
@@ -98,7 +124,7 @@
       "description": "Plum",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "13": [
@@ -106,7 +132,7 @@
       "description": "Meyer Lemon",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "14": [
@@ -114,7 +140,7 @@
       "description": "Peach",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "15": [
@@ -123,7 +149,7 @@
       "query": "Fuji_(apple)",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "16": [
@@ -131,7 +157,7 @@
       "description": "Avocado",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "17": [
@@ -139,7 +165,7 @@
       "description": "Pear",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "18": [
@@ -147,7 +173,7 @@
       "description": "Sweet Potato",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "19": [
@@ -155,7 +181,7 @@
       "description": "Mango",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "20": [
@@ -163,7 +189,7 @@
       "description": "Banana",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "21": [
@@ -171,7 +197,7 @@
       "description": "Carrot",
       "source": "Parents.com",
       "measurement": "length",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "22": [
@@ -179,7 +205,7 @@
       "description": "Papaya",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "23": [
@@ -187,7 +213,7 @@
       "description": "Eggplant",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "24": [
@@ -196,7 +222,7 @@
       "query": "Sweet_corn",
       "source": "Parents.com",
       "measurement": "length",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "25": [
@@ -205,7 +231,7 @@
       "query": "Acorn_squash",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "26": [
@@ -213,7 +239,7 @@
       "description": "Zucchini",
       "source": "Parents.com",
       "measurement": "length",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "27": [
@@ -221,7 +247,7 @@
       "description": "Cauliflower",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "28": [
@@ -230,7 +256,7 @@
       "query": "Kabocha",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "29": [
@@ -238,7 +264,7 @@
       "description": "Butternut Squash",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "30": [
@@ -247,7 +273,7 @@
       "query": "Cabbage",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "31": [
@@ -256,7 +282,7 @@
       "query": "Leek",
       "source": "Parents.com",
       "measurement": "length",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "32": [
@@ -264,7 +290,7 @@
       "description": "Napa Cabbage",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "33": [
@@ -272,7 +298,7 @@
       "description": "Pineapple",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "34": [
@@ -280,7 +306,7 @@
       "description": "Cantaloupe",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "35": [
@@ -289,7 +315,7 @@
       "query": "Honeydew_(melon)",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "36": [
@@ -297,7 +323,7 @@
       "description": "Romaine Lettuce",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "37": [
@@ -306,7 +332,7 @@
       "query": "Chard",
       "source": "Parents.com",
       "measurement": "length",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "38": [
@@ -314,7 +340,7 @@
       "description": "Rhubarb",
       "source": "Parents.com",
       "measurement": "length",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "39": [
@@ -323,7 +349,7 @@
       "query": "Pumpkin",
       "source": "Parents.com",
       "measurement": "weight",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ],
   "40": [
@@ -331,7 +357,7 @@
       "description": "Watermelon",
       "source": "Parents.com",
       "measurement": "size",
-      "link": "https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
+      "link": "http://web.archive.org/web/20220726144548/https://www.parents.com/pregnancy/week-by-week/how-big-is-your-baby-this-week/"
     }
   ]
 }

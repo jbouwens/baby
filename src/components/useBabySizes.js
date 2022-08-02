@@ -4,12 +4,12 @@ const useBabySizes = () => {
   const [allBabySizes, setAllBabySizes] = useState([]);
 
   useEffect(() => {
-    const fetchHouses = async () => {
+    const fetchData = async () => {
       const rsp = await fetch("/data.json");
       const sizes = await rsp.json();
       setAllBabySizes(sizes);
     };
-    fetchHouses();
+    fetchData();
   }, []);
 
   return allBabySizes;

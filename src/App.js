@@ -15,9 +15,9 @@ function App() {
   };
 
   return (
-    <Container className="p-3">
+    <Container className="container">
       <AgeForm addAge={addAge}></AgeForm>
-      <AgeList ages={ages} allBabySizes={allBabySizes}></AgeList>
+      <AgeList ages={[...ages].reverse()} allBabySizes={allBabySizes}></AgeList>
     </Container>
   );
 }
