@@ -1,74 +1,11 @@
-// import { useState, useEffect } from "react";
-
-// // const useBabyImage = (query) => {
-// //   const [babyImage, setBabyImage] = useState();
-
-// // useEffect(() => {
-// const fetchImage = (query) => {
-//   const rsp = fetch(
-//     `https://en.wikipedia.org/w/api.php?action=query&titles=${query}&prop=pageimages&format=json&pithumbsize=512`,
-//     {
-//       method: "GET",
-//       headers: {
-//         "content-type": "application/json",
-//       },
-//     }
-//   ).then((x) => {
-//     const image = x.json;
-//     const url = parseObjectForUrl(image);
-//     return url;
-//   });
-// };
-// // };
-
-// // todo: try not to do any looping
-// function parseObjectForUrl(obj) {
-//   for (var key in obj) {
-//     if (key === "source") {
-//       // console.log("key: " + key + ", value: " + obj[key]);
-//       return obj[key];
-//     }
-
-//     if (obj[key] instanceof Object) {
-//       parseObjectForUrl(obj[key]);
-//     }
-//   }
-// }
-
-// export default fetchImage;
-
-import { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
+import useFetchWikipediaImage from "../hooks/ImageHooks";
 
 const BabyImage = ({ query }) => {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const {data} = useFetchWikipediaImage(query);
+  const flat = flatten(data);
 
-  const api = `https://en.wikipedia.org/w/api.php?action=query&titles=${query}&prop=pageimages&format=json&pithumbsize=512&origin=*`;
-
-  useEffect(() => {
-    console.log("api call", api);
-    fetch(api)
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        }
-        throw response;
-      })
-      .then((data) => {
-        const flat = flatten(data);
-        setData(flat["source"]);
-      })
-      .catch((error) => {
-        setError(error);
-      })
-      .finally(() => {
-        setLoading(false);
-      });
-  }, []);
-
-  return <Card.Img variant="top" src={data} />;
+  return <Card.Img variant="top" src={flat["source"]} />;
 };
 
 export default BabyImage;
