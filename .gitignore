@@ -24,3 +24,4 @@ yarn-error.log*
 web/node_modules
 api/.vscode
 api/bin
+api/obj

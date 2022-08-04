@@ -1,0 +1,1 @@
+public record BabyDto(int Age);
