@@ -34,5 +34,5 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'Default-Storage-CentralUS'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/web/build'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/api/bin/release'
     
