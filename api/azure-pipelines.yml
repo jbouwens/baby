@@ -24,4 +24,4 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'DefaultResourceGroup'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/api/bin/release'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/api/bin/release/net6.0'
