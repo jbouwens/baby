@@ -25,3 +25,4 @@ web/node_modules
 api/.vscode
 api/bin
 api/obj
+api/.vs
