@@ -18,6 +18,13 @@ function App() {
     <Container className="container">
       <AgeForm addAge={addAge}></AgeForm>
       <AgeList ages={[...ages].reverse()} allBabySizes={allBabySizes}></AgeList>
+      <footer class="page-footer font-small">
+        <div class="text-center py-3">
+          <a target="_blank" href="https://github.com/jbouwens/baby">
+            Github
+          </a>
+        </div>
+      </footer>
     </Container>
   );
 }

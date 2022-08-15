@@ -34,7 +34,9 @@ const AgeForm = ({ addAge }) => {
           value={babyInfo.age}
           onChange={handleChange}
         />
-        <Button onClick={handleSubmit}>Go!</Button>
+        <div class="input-group-append">
+          <Button onClick={handleSubmit}>Go!</Button>
+        </div>
       </FormGroup>
     </Form>
   );
